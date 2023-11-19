@@ -1,0 +1,217 @@
+body{
+	background-image: url("background1.jpg"); 
+	background-repeat: no-repeat;
+  	background-attachment: fixed;  
+  	background-size: 1600px 800px ;
+}
+.images{
+	width: 45%;
+	height: 80%;
+	position: absolute;
+	top: 20%;
+	left: 0%;
+	padding-right: 100px;
+}
+.images .harsha{
+	height: 120%;
+	position: absolute;
+	left: 50%;
+	border-radius: 360px;
+	transform: translate(-50%);
+	transition: 0.5s;
+}
+.images:hover .harsha{
+	bottom:0.5%;
+}
+img.shape{
+	box-shadow: 0 5px 100px 0 gold inset, 0 5px 100px 0 gold;
+}
+.div2{
+	height: 44px;
+	width: 561px;
+	border-radius: 25px;
+	background-color: white;
+	position: absolute;
+	padding-left: 40px;
+  	top: 15%;
+  	left: 70%;
+  	transform: translate(-50%, -50%);
+  	border: 5px solid gold;
+}
+
+.div3{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("leetcode.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	position: absolute;
+	padding-left: 40px;
+  	top: 35%;
+  	left: 50%;
+  	align-items: center;
+  	align-content: center;
+  	border: 5px solid gold;
+  	cursor: pointer;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+
+.div4{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("GeeksforGeeks.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	position: absolute;
+	padding-left: 40px;
+  	top: 35%;
+  	left: 65%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div5{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("codechef.png");
+	position: absolute;
+	padding-left: 40px;
+  	top: 35%;
+  	left: 80%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div6{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("github.png");
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+	position: absolute;
+	padding-left: 40px;
+  	top: 35%;
+  	left: 94%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+
+
+.div7{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("codingninja.png");
+	position: absolute;
+	padding-left: 30px;
+  	top: 60%;
+  	left: 50%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div8{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("codeforces.png");
+	position: absolute;
+	padding-left: 30px;
+  	top: 60%;
+  	left: 65%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div9{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("gmail.png");
+	position: absolute;
+	padding-left: 30px;
+  	top: 60%;
+  	left: 80%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div10{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("linkedin.png");
+	position: absolute;
+	padding-left: 30px;
+  	top: 60%;
+  	left: 94%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+
+
+
+.div11{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("home.png");
+	position: absolute;
+	padding-left: 40px;
+  	top: 85%;
+  	left: 50%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div12{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("outlook.png");
+	position: absolute;
+	padding-left: 30px;
+  	top: 85%;
+  	left: 65%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div13{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("monkeytype.png");
+	position: absolute;
+	padding-left: 30px;
+  	top: 85%;
+  	left: 80%;
+  	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+.div14{
+	height: 110px;
+	width: 78px;
+	border-radius: 25px;
+	background-image: url("hackerrank.png");
+	position: absolute;
+	padding-left: 40px;
+  	top: 85%;
+  	left: 94%;
+	border: 5px solid gold;
+  	transform: translate(-50%, -50%);
+  	transition: 1.5s;
+}
+
+.div2:hover,.harsha:hover,.div3:hover, .div4:hover, .div5:hover,.div6:hover, .div7:hover, .div8:hover, .div9:hover, .div10:hover, .div11:hover, .div12:hover, .div13:hover, .div14:hover {
+            box-shadow: 0 5px 50px 0 gold inset, 0 5px 50px 0 gold;
+        }
+
